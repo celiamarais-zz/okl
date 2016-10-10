@@ -504,9 +504,9 @@ padding-bottom: 50px;
 	font-size: 14px;
 	}
 	
-.copy {
-  padding: 30px;
-}
+/*.copy {
+  padding: 30px 0 30px 0;
+}*/
 
 .copy:nth-child(2) {
   padding-top: 12px;
