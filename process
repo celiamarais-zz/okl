@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Portfolio : ">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <title>OKL Design Challenge - 10/16</title>
+  </head>
+  <body>
+  
+      <!-- HEADER -->
+<div class="site_header">
+<div class="header_text">
+				<span class="big_screen_title"><span class="dark">Celia Marais</span>  OKL Design Challenge - 10/16</span>
+				<span class="small_screen_title"><span class="dark">Celia Marais</span>OKL - 10/16</span>
+			</div>
+
+<div class="navigation">
+<div class="active">Process</div>
+					<div><a href="/flows">Flows</a></div>					
+					<div><a href="/designs">Designs</a></div>	
+          <div>Stuffs</div>		
+			</div>	
+		</div>	
+    <!-- MAIN CONTENT --> 		    
+      <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+				<div class="project_content about">
+						<h1>Who's my user?</h1>
+						<div class="copy">					
+								<strong>Edie, 46, lives in SF, Married, No kids, Household income > 300K</strong>
+								<ul>
+                <li>She is a HR Consultant (Flexible Schedule, has a home office and does in house consultations, so she spends a lot of time in taxis/ubers traveling.</li>
+								<li>Her and her husband own a house in SF and they just bought a second home in Point Reyes.</li>
+								<li>She is mature and knows what she likes in terms of home decor.</li>
+								<li>Husband is a CD at an ad firm. He has opinions and tastes, but is not the primary decision maker on home decoration.</li>
+								<ul>She is familiar with One Kings Lane and has already bought one or two small items in the past, but the couple bought their first home over 10 years ago, so they didn't use OKL to furnish it.</li>
+                </ul>
+						</div>		
+						<h1>Her Needs, OKL's business goals, and how they intersect</h1>
+						<div class="copy">
+            <li>
+                <ul>
+           <li>She is looking to furnish and decorate the couple's second home, but she is busy and doesn't necessarily have a lot of time to shop for furniture > Offer her a central place where she can collect and compare ideas, and find inspiration for her project, so that when she think of it, she thinks OKL, and we make her a repeat customer.</li>
+           <li>She has some free time when she is Ubering from client to client. > A mobile friendly experience, easily accessible on the go. <li>
+           <li>She wants to consult with her husband, and get her friends/decorator/decorator friend'sopinion > A shareable experience.<li>
+					</div>
+					<h1>Competitive Analysis</h1>
+					<div class="copy">
+Room and Board Design Ideas
+Pottery Barn Room Planner
+Ikea Home Planner
+					</div>
+					
+										<h1>Inspiration</h1>
+					<div class="copy">
+Mood boards in general, Photo albums...
+Houzz Idea Book
+Pinterest
+Polyvore
+Blippar
+Gomoodboard
+					</div>
+				</div>
+      </section>
+    </div>
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Portfolio maintained by <a href="https://github.com/celiamarais">celiamarais</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
