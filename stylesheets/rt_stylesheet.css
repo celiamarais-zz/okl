@@ -53,6 +53,18 @@ background-size:100%;
 display: block;*/
 	}
 
+div.heroimage {
+  width: 100%;
+}
+
+figure.fixedratio {
+  padding-top: 22.8125%;  /* 438px/1920px = 0.228125*/
+background-image: url('/okl/images/HeroImage.png');
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: center;  /* Internet Explorer 7/8 */
+}
+
 
 @media only screen and (max-width: 768px) {
 	.topnav {
