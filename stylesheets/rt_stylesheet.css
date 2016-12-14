@@ -43,17 +43,22 @@ Small Device Styles
 /**** header ****/
 .topnav {
 		width: 100%;
-		height: 200px;
-		background-color: #ff0000;
+		height: 102px;
+		background-color: #7ED321;
 	}
 
+.heroimage {
+background-image:url('/okl/HeroImage.png');
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
+	}
 
 
 @media only screen and (max-width: 768px) {
 	.topnav {
 		width: 100%;
-		height: 100px;
-		background-color: #000000;
+		height: 58px;
 	}
 
 }
