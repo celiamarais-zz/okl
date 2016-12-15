@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="description" content="Portfolio : ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/rt_stylesheet_01.css">
+   <!-- <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/rt_stylesheet_01.css"> -->
     <title>Responsive test</title>
+    
+    <style>
+      .topnav {
+		width: 100%;
+		height: 102px;
+		background-color: #7ED321;
+	}
+
+.heroimage {
+/*background-image:url('/okl/images/SalesEvent_70257_Logo_1.jpg');
+background-size:100%;
+display: block;*/
+	}
+
+div.heroimage {
+  width: 100%;
+}
+
+figure.fixedratio {
+  padding-top: 22.8125%;  /* 438px/1920px = 0.228125*/
+background-image: url('/okl/images/SalesEvent_70257_Logo_1.jpg');
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: right;  /* Internet Explorer 7/8 */
+}
+
+
+@media only screen and (max-width: 768px) {
+	.topnav {
+		height: 58px;
+	}
+
+}
+    </style>
   </head>
   <body>
 <div class="topnav">Top Nav</div>
