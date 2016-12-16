@@ -34,28 +34,15 @@ background-size:100%;
 display: block;
 	}*/
 
-.heroimage_1152 {
+.heroimage {
 height: 360px;
 width: 100%;
 background-color: #f6f6f6;
 }
 	    	    
-/*.heroimage_1152_l {
-height: 360px;
-width: 528px;
-float: right;    
-}
-	    
-.heroimage_1152_r {
-margin-right: 528px;
-background-image:url('/okl/images/DINING ROOM.png');
-background-position: center center;
-background-repeat: no-repeat; 
-}*/
 	    
 .image
 {
-    background: green; color: green;
     width: 528px; height: 360px;
     float: right;
     
@@ -71,22 +58,34 @@ height: 360px;
     
 }
 
-/*figure.fixedratio {
-padding-top: 22.8125%;
-background-image: url('/okl/images/SalesEvent_70257_Logo_1.jpg');
-background-attachment: fixed;
-background-position: right;
-background-repeat: no-repeat;
-background-color: #f6f6f6;
-
-}*/
-
+		    
 
 @media only screen and (max-width: 768px) {
 	.topnav {
 		background-image:url('/okl/images/TopNav_768.png');
 		height: 58px;
 	}
+	
+.heroimage {
+width: 100%;
+}
+	
+.image img {display:none;}
+	
+.image {
+	  padding-top: 60.0989%;  /* 438px/1920px = 0.228125*/
+background-image: url('/okl/images/SalesEvent_70257_Logo_1.jpg');
+  background-size: cover;
+  -moz-background-size: cover;  /* Firefox 3.6 */
+  background-position: center;  /* Internet Explorer 7/8 */
+}
+
+	
+.content {
+margin-right: 0;
+height: 20px;
+text-align:center;    
+}
 
 }
 	    
@@ -102,16 +101,14 @@ background-color: #f6f6f6;
   </head>
   <body>
 <div class="topnav">Top Nav</div>
- <div class="heroimage_1152">
-	 
+ <div class="heroimage"> 
 	 <div class="image">
         <img src="/okl/images/SalesEvent_70257_Logo_1.jpg">
-    </div>
-    
+    </div>    
     <div class="content">
 <img src="/okl/images/DINING ROOM.png">
     </div>
-	  </div>	 
+</div> 	  
 <div class="body">Body</div>
   </body>
 </html>
