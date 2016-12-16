@@ -28,7 +28,7 @@ time, mark, audio, video {
   border: 0;
   font: inherit;
   vertical-align: baseline;
-font-style: helvetica, arial, sans-serif;
+font-family: helvetica, arial, sans-serif;
 text-transform: uppercase;
 	
 }
@@ -78,7 +78,7 @@ width: 100%;
     
 }
 
-.content
+.content_360
 {
     /*background: blue; color: white;*/
    margin-right: 528px;	
@@ -87,6 +87,11 @@ height: 360px;
       
 }
 
+.content_262
+{
+display: none;
+      
+}
 		    
 
 @media only screen and (max-width: 768px) {
@@ -115,7 +120,7 @@ width: 100%;
     
 }
 
-.content
+.content_262
 {
     /*background: blue; color: white;*/
    margin-right: 384px;	
@@ -124,6 +129,12 @@ height: 269px;
       
 }
 
+	.content_360
+{
+display: none;
+      
+}
+	
 }
 	    
 	    
@@ -142,8 +153,11 @@ height: 269px;
 	 <div class="image">
         <img src="/okl/images/SalesEvent_70257_Logo_1.jpg">
     </div>    
-    <div class="content">
-<img src="/okl/images/title_c.png">
+    <div class="content_360">
+<img src="/okl/images/title_c_360.png">
+    </div>
+	     <div class="content_262">
+<img src="/okl/images/title_c_262.png">
     </div>
 </div> 	  
 <div class="body">Body</div>
