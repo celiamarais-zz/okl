@@ -39,10 +39,15 @@ width: 100%;
 background-color: #f6f6f6;
 height: 356px;
 }
-	    
- div.heroimage_1152 img {
-float: right;
+	    	    
+ div.heroimage_1152_l {
+    width: 568px;
+	float: right;    
 }
+	    
+ div.heroimage_1152_r {
+   margin-right: 568px;
+	    }
 
 /*figure.fixedratio {
 padding-top: 22.8125%;
@@ -75,8 +80,7 @@ background-color: #f6f6f6;
   </head>
   <body>
 <div class="topnav">Top Nav</div>
-    <div class="heroimage_1152"><img src="/okl/images/SalesEvent_70257_Logo_1.jpg"></div>
-    
+ <div class="heroimage_1152"><div class="heroimage_1152_r">some text</div><div class="heroimage_1152_l"><img src="/okl/images/SalesEvent_70257_Logo_1.jpg"></div></div>   
 <div class="body">Body</div>
   </body>
 </html>
