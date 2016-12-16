@@ -9,37 +9,55 @@
     <title>Responsive test</title>
     
     <style>
-      .topnav {
-		width: 100%;
-		height: 102px;
-		background-color: #7ED321;
-	}
 
-.heroimage {
-/*background-image:url('/okl/images/SalesEvent_70257_Logo_1.jpg');
+
+.topnav {
+width: 100%;
+height: 102px;
+background-color: #ff0000;
+background-image:url('/okl/images/TopNav_1024.png');
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat; 
+	    }
+
+/*.heroimage {
+background-image:url('/okl/images/SalesEvent_70257_Logo_1.jpg');
 background-size:100%;
-display: block;*/
-	}
+display: block;
+	}*/
 
-div.heroimage {
-  width: 100%;
+div.heroimage_1152 {
+width: 100%;
+background-color: #f6f6f6;
+height: 440px;
 
 }
 
-figure.fixedratio {
-  padding-top: 22.8125%;  /* 438px/1920px = 0.228125*/
+/*figure.fixedratio {
+padding-top: 22.8125%;
 background-image: url('/okl/images/SalesEvent_70257_Logo_1.jpg');
 background-attachment: fixed;
 background-position: right;
 background-repeat: no-repeat;
 background-color: #f6f6f6;
 
-}
+}*/
 
 
 @media only screen and (max-width: 768px) {
 	.topnav {
+		background-image:url('/okl/images/TopNav_768.png');
 		height: 58px;
+	}
+
+}
+	    
+	    
+@media only screen and (max-width: 375px) {
+	.topnav {
+		background-image:url('/okl/images/TopNav_320.png');
+		height: 52px;
 	}
 
 }
@@ -47,8 +65,8 @@ background-color: #f6f6f6;
   </head>
   <body>
 <div class="topnav">Top Nav</div>
-    <div class="heroimage">
-<figure class="fixedratio"></figure>
+    <div class="heroimage_1152">
+<img src="/okl/images/SalesEvent_70257_Logo_1.jpg">
 </div>
     
 <div class="body">Body</div>
