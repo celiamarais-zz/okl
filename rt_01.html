@@ -7,6 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/rt_stylesheet_01.css"> -->
     <title>Responsive test</title>
+	  <script>
+		  $(window).on('resize', showSize);
+
+showSize();
+
+function showSize() {
+    $('#size').html('HEIGHT : '+$(window).height()+'<br>WIDTH : '+$(window).width());
+    $('#size2').html('HEIGHT : '+screen.height+'<br>WIDTH : '+screen.width);
+}
+	  </script>
     
     <style>
 
@@ -96,7 +106,7 @@ display: none;
 
 @media only screen and (max-width: 768px) {
 	.topnav {
-		background-image:url('/okl/images/TopNav_768.png');
+		/*background-image:url('/okl/images/TopNav_768.png');*/
 		height: 39px;
 	}
 	
@@ -149,7 +159,7 @@ display: none;
     </style>
   </head>
   <body>
-<div class="topnav">Top Nav</div>
+	  <div class="topnav">Top Nav <span id="#size2"></span><span id="#size"></span></div>
  <div class="heroimage"> 
 	 <div class="image">
         <img src="/okl/images/SalesEvent_70257_Logo_1.jpg">
